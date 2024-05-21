@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dhiraj/cicd/
+    - /bin/cp -R images $DEPLOYPATH
